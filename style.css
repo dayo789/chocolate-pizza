@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%
+}
+
+.nav-bar {
+  position: relative;
+  margin-top: 2em;
+}
+
+.logo {
+  height: 3em;
+  position: absolute;
+  margin-top: 2em;
+}
+
+.delicious {
+  font-family:'Yellowtail', cursive;
+  font-size: 3.5w;
+  font-weight: 600;
+  margin-left: 1.2em;
+  position: absolute;
+}
+
+/* #divider {
+  margin-top: 10px ;
+  margin-bottom: 10px ;
+  width: 100% ;
+  background-image: url(/img/hr-img.png);
+  background-repeat: repeat ;
+  height: 2vw;
+} */
+
+.best-blog {
+  color: rgb(grey);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: xx-small;
+  letter-spacing: .2em;
+  margin-left: 5.5em;
+  margin-top: 4.5em;
+  position: absolute;
+}
+
+.social-icons {
+  float:right;
+}
+
+.clearfix {
+  overflow: aiuto;
+}
+
+h2 {
+  margin: 6em 0 4em 0;
+  padding: 8px;
+}
+
+/* .stripe {
+
+} */
+
+.chocolate-pizza {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.8vw;
+  font-weight: 1000;
+  margin-bottom: 1vw;
+}
+
+.posted {
+  color: lightgrey;
+  display: inline;
+  font-family: 'Pathway Gothic One' sans-serif;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+
+}
+
+.instructions {
+  color: gray;
+  font-family: 'Crimson Text, serif';
+  font-size: large;
+  line-height: 2vw;
+  margin-top: 2vw;
+  text-indent: 3%;
+}
+
+.list-background {
+  margin-top:3.5vw;
+  width: 100%;
+}
+
+.column1 {
+  margin-left: 13%
+}
+
+
+/* .ingredients-list {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.column2 {
+  position: absolute;
+  left: 20px;
+}
+
+.column3 {
+  position: absolute;
+right: 20px;
+} */
