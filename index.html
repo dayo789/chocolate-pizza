@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=IBM+Plex+Mono&family=Oswald&family=Pathway+Gothic+One&family=Patrick+Hand&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet"  href="style.css" />
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +13,14 @@
 
 <body>
 
-  <header>
-
+  <header class="nav-bar">
     <!-- Left Side of Header -->
-    <img src="/img/logo.png" alt="logo">
-    <h1>Delicious</h1>
-    <h2>THE BEST FOOD BLOG ON THE WEB</h2>
+    <img src="/img/logo.png" alt="logo" class="logo">
+    <h3 class="delicious">Delicious</h3>
+    <p class="best-blog">THE BEST FOOD BLOG ON THE WEB</p>
 
     <!-- right side of header -->
-
+    <div class="social-icons">
     <img src="/img/fb-icon.png" alt="facebook">
     <img src="/img/twit-icon.png" alt="twitter">
     <img src="/img/gp-icon.png" alt="googleplus">
@@ -28,31 +29,28 @@
     <img src="/img/pint-icon.png" alt="pintrest">
     <!-- small break -->
     <img src="/img/rss-icon.png" alt="rss">
-    <img src="/img/mail-icon.png" alt="mail">
-
+    <img src="/img/mail-icon.png" alt="email">
     <!-- header line -->
-
-    <img src="/img/hr-img.png" alt="header line">
-
+    <img src="/img/hr-img.png" alt="header-ine" id="divider">
+    </div>
+    <div class="fix1"></div>
   </header>
 
   <!-- Second Header -->
 
-  <main>
+  <main class="container">
     <section>
-      <h3>Chocolate Pizza</h3>
-      <h4>POSTED ON 15 DEC 2013 / DESERTS</h4>
-      <img src="img/pint-icon.png" alt="print">
+      <h2 class="stripe"></h2>
+      <h3 class="chocolate-pizza">Chocolate Pizza</h3>
+      <h4 class="posted">POSTED ON 15 DEC 2013 / DESERTS</h4>
       <h4>PRINT</h4>
+      <img src="img/pint-icon.png" alt="print" class="pizza-icon">
+      <img src="/img/choco-pizza.png" alt="chocolate pizza" class="pizza-image">
     </section>
 
     <!-- Main Body -->
-
-
-
     <section>
-      <img src="/img/choco-pizza.png" alt="chocolate pizza">
-      <p>
+      <p class="instructions">
         For the fig - swirl : Melt butter over medium heat in a saucepan . Add brown sugar and stir to dissolve . Halve
         all
         of the figs and toss in the saucepan with water and lemon juice . Cook over medium heat , stirring frequently ,
@@ -60,13 +58,13 @@
         you have a chunky - jammy mixture . Add salt with one or two stirs , set aside and let cool completely .
       </p>
 
-      <p> Ice cream : In a small pot over medium heat , combine milk , and granulated sugar until sugar is completely
+      <p class="instructions"> Ice cream : In a small pot over medium heat , combine milk , and granulated sugar until sugar is completely
         dissolved and the milk is just barely lukewarm . Whisk in the egg yolks . Set mixture in the fridge and wait
         until the
         fig mixture is cooled .
       </p>
 
-      <p>
+      <p class="instructions">
         Using an ice cream machine , pour liquids into the frozen basin and process according to manufacturer
         instructions , i.e. , let spin and thicken for 20 minutes before adding mascarpone , fig jam mixture , and the
         nuts .
@@ -79,49 +77,76 @@
       <!-- Note Pad Area -->
 
 
-      <section>
-
-        <img src="/img/list.bg.png" alt="list" />
-
-        <ul>
-          <li>1 1/2 cups milke</li>
-          <li>1/2 cup mascarpone</li>
-          <li>1/2 tsp pink salt</li>
-          <li>1lb Black Mission Figs</li>
-          <li>1/2 cup brown sugar</li>
-          <li>2-4 tbsp water</li>
-          <li>1 1/2 cups heavy cream</li>
-          <li>1/3 granulated sugar</li>
-          <li>2 egg yolks</li>
-          <li>1 lemon, juiced</li>
-          <li>2 tbsp butter</li>
-          <li>1 cups honey roasted pecans, roughly chopped</li>
-        </ul>
+      <section class="ingredients-list">
+        <img src="img/list-bg.png" alt="list" class="list-background">
+        <form class="col-container">
+        <fieldset class="column1">
+          <input type="checkbox">
+          <label>1 1/2 cups milk</label>
+          <br>
+          <input type="checkbox">
+          <label>1/2 cup mascarpone</label>
+          <br>
+          <input type="checkbox">
+          <label>1/2 tsp pink salt</label>
+          <br>
+          <input type="checkbox">
+          <label>1lb Black Mission Figs</label>
+          <br>
+          <input type="checkbox">
+          <label>1/2 cup brown sugar</label>
+          <br>
+          <input type="checkbox">
+          <label>2-4 tbsp water</label>
+          </fieldset>
+          <fieldset class="column2">
+          <input type="checkbox">
+          <label>1 1/2 cups heavy cream</label>
+          <br>
+          <input type="checkbox">
+          <label>1/3 granulated sugar</label>
+          <br>
+          <input type="checkbox">
+          <label>2 egg yolks</label>
+          <br>
+          <input type="checkbox">
+          <label>1 lemon, juiced</label>
+          <br>
+          <input type="checkbox">
+          <label>2 tbsp butter</label>
+          <br>
+          <input type="checkbox">
+          <label>1 cups honey roasted pecans, roughly chopped</label>
+          <br>
+        </fieldset>
+        </form>
       </section>
-
-
-
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <img src="/img/hr-img.png" alt="header line">
-    <img src="/img/van-pic.png" alt="Vanessa">
-
-    <h5>Vanessa Stevenson</h5>
-    <p>Food enthusiast , photography fan. Add a pinch of raw foodism and that's
+      <!-- Stripe LINE -->
+      <img src="/img/hr-img.png" alt="header-ine" class="divider">
+      <h2 class="stripe"></h2>
+      <section class="about-vanessa">
+      <img src="/img/van-pic.png" alt="vanessa" class="vanessa-p">
+      <h3 class="vanessa-name">Vanessa Stevenson</h5>
+      <p class="vanessa-bio">Food enthusiast , photography fan. Add a pinch of raw foodism and that's
       pretty much who I am.</p>
-
-    <button type="button">SHARE RECIPE</button>
+      </section>
+      <section class="container">
+      <button type="button">SHARE RECIPE</button>
+      </section>
+      </main>
+  <!-- Footer -->
+  <footer class="container">
+    <section class="bottom-section">
+      <h4 clas="line-footer1"></h4>
+      <img src="img/small-logo.png" alt="" class="small-logo">
+      <h4 class="line-footer2"></h4>
+    </section>
 
     <!-- bottom of footer -->
-
-    <img src="/img/small-logo.png" alt="Food Logo">
-
-    <p>Delicious © 2013 - All Rights Reserved.
-      Proudly published with Ghost.
-    </p>
-
+    <section class="words-footer">
+      <p>Delicious © 2013 - All Rights Reserved.</p>
+      <p class="published">Proudly published with Ghost.</p>
+    </section>
+  </footer>
 </body>
-
 </html>
